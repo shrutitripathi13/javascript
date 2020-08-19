@@ -1,4 +1,6 @@
-const p = document.querySelector('p');
-console.log('im in another world');
-const age = 100;
-console.log(p,age);
+const myname = 'shruti';
+const myfathersname = 'ravindra';
+const mymothersnmae = 'vandana';
+const mysistersnmae = 'avishi';
+const sentence = 'hello my name is "+ myname +". my father \'s name is "+ myfathersname +". my mother\'s name is "+ mymothersname +".'
+console.log('sentence ${sentence}');
