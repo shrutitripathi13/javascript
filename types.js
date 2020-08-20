@@ -1,4 +1,4 @@
-const name = 'wes';
+/*const name = 'wes';
 const middle = "topher";
 const last = `bos`;
 const sentence = 'she\'s soo cool';
@@ -38,4 +38,11 @@ const person = {
     first: 'shruti',
     last: 'tripathi',
     age: 18
-}; 
+};*/ 
+/*let dog;
+console.log(dog);*/
+
+let isDrawing = false;
+let age = 18;
+const ofAge = age < 19;
+console.log(ofAge);
