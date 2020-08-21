@@ -1,5 +1,5 @@
 //function definition
-function  calculateBill(billAmount, taxRate){
+/*function  calculateBill(billAmount, taxRate){
     console.log(billAmount, taxRate);
     //this is the function body
     console.log('running calculate bill!!');
@@ -9,4 +9,11 @@ function  calculateBill(billAmount, taxRate){
 }
 //function call or 'run
 const myTotal = calculateBill(100, 0.13);
-//console.log(myTotal);
+//console.log(myTotal);*/
+
+function sayHiTo(name){
+    return `Hello ${name}`;
+}
+const greetings = sayHiTo('bhawna');
+console.log(greetings)
+
