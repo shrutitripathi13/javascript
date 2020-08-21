@@ -11,9 +11,11 @@
 const myTotal = calculateBill(100, 0.13);
 //console.log(myTotal);*/
 
-function sayHiTo(name){
-    return `Hello ${name}`;
+function doctorize(name) {
+    return `Dr. ${name}`;
 }
-const greetings = sayHiTo('bhawna');
-console.log(greetings)
-
+function yell(name) {
+    return `HEY ${name.toUpperCase()}`;
+}
+const call = yell(doctorize('anna'));
+console.log(call);
