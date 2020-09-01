@@ -4,9 +4,10 @@
        
     </head>
     <body>
+        <img height="600px" width="600px" src="layout6.png" alt="hello world">
         <div class="items">
             <div class="item">
-                <img src="layout6.png" alt="hello">
+                <img class="nice picture" height="400px" width="400px" src="layout6.png" alt="hello">
                 <p>hi i'm an item</p>
             </div>
             <div class="item">
@@ -17,6 +18,13 @@
                 <h2>i am an article</h2>
             </article>
         </div>
+        <style>
+            .round {
+                border-radius: 50%;
+                transition: all 0.2s;
+                transform: rotate(20deg);
+            }
+        </style>
         <script src="./dom.js"></script>
     </body>
 </html>
