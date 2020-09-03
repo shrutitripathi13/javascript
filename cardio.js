@@ -32,3 +32,13 @@ ulElement.insertAdjacentHTML('beforebegin',myHTML);
 const myDiv = div.querySelector('.myDiv');
 console.log(myDiv);
 myDiv.firstElementChild.remove();
+
+function generatePlayerCard(name, age, height) {
+    const html =`
+    <div class="playercard">
+    <h2>${name}-${age}</h2>
+    <p>they are ${height} and ${age} years old. In dog years this person would be ${age*7}.
+    That would be a tall dog</p>
+    </div>`;
+    return html;
+}
